@@ -1,0 +1,11 @@
+download codellama
+make this modelfile
+go to via code
+C:\Users\ASUS\Desktop\Gen-Ai_from_Scratch\5-Langchain\11-GoodProject\2-Codellama>ollama create locus -f modelfile
+
+
+check via ollama run locus
+
+
+
+after run:= python app.py

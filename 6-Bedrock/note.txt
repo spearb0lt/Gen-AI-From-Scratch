@@ -1,0 +1,95 @@
+https://eu-north-1.console.aws.amazon.com/bedrock/home?region=eu-north-1#/
+
+aws sym>searh for IAM new user attachn polic direct admi  aces
+
+click on user create access key cli acess
+
+awscli
+
+
+
+
+
+-------------
+i tried using llama and claude and stable diffuion it worked
+--------------
+for 2
+
+blog genrtn 
+create api using postman, query from user->goes to amazon api gateway->lam fxn->amazon bedrock models and save it in amazon s3 txt
+
+
+
+creare fxn in aws lambda
+
+
+
+write code go paste it in lambda
+next create  afolder and download boto3 in it pip install boto3 -t python/
+next zip it
+
+
+whatever you want to use in lambda yhats not installed this is how you have to upload it
+
+
+
+create layer upload
+
+goto API gateways create http api
+api name give then add routes 
+POST blog_gen attach integration aatch lamda fxn which you have
+
+now go to satgs create dev environment use the api given
+
+create s3 bucket name as per given in code
+
+goto POSTMAN do POST the link and at end /blog-gen -->as per API route
+
+in body:
+as per our code we do {"blog_topic":"ML"}
+give send
+
+view logs in cloudwatch
+
+goto code in amda->configuration->role name-> give admin access give all permission
+
+rerun
+
+check cloudwatch you can also see your generation saved in S3...u can also see generation in s3 also
+
+---------------------------
+sagemaker make single user domain
+click on domain
+get to user
+
+go to user doman detailes then to launch studio
+Amazon SageMaker AI
+Domains
+Domain: QuickSetupDomain-20250713T032977
+
+studio>jupyterlab>create spave
+
+ml.m5.large 10gb
+
+open jjupyterlab>python3 kerenl notebook
+
+write needed code
+
+
+to see deployment
+sagemakerstudio>deployments>endpoints
+click on a endpoint see stattus should be in service
+go to test inference  if u give body in same format you would gey an output
+all this after deployment
+
+FOR FALCON notebook
+we run sagemaker image uri
+llm model into a conatiner then we call the conatiner
+
+
+https://github.com/aristsakpinis93/generative-ai-immersion-day/tree/main/lab4
+
+this great to learn
+
+
+,...costly operation
