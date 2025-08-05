@@ -1,0 +1,13 @@
+i ran KN lora.finetuning in kaggle and colab it is nice 
+below adding more sources for execution and understanding
+
+http://kaggle.com/models/keras/gemma3/
+https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/core/lora_tuning.ipynb
+https://ai.google.dev/gemma/docs/core/lora_tuning
+https://ai.google.dev/gemma/docs/core/lora_tuning
+
+additionally try unsloth.ai to finetune
+
+
+https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/language_modeling.ipynb
+https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini-supervised-tuning
