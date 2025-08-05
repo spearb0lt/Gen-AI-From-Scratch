@@ -1,0 +1,18 @@
+python -m venv myenv
+myenv\Scripts\activate
+pip install numpy
+.
+.
+.
+or
+
+pip install virtualenv
+virtualenv -p python3 virtual_env
+
+
+
+
+
+
+
+cond create -p venv1 python==3.10

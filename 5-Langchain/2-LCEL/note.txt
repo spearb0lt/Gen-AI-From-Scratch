@@ -1,0 +1,19 @@
+run like
+
+python langserve_use.py
+
+the link you get do
+
+http://127.0.0.1:8000/docs
+
+original is langseve_use.py
+which also woeks in playground
+
+
+
+
+
+
+
+because of some error i modified script to server.py
+http://127.0.0.1:8000/chain/playground/ to run it
